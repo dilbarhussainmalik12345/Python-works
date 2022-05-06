@@ -1,0 +1,3 @@
+uni = "Sukkur IBA University"
+nam = uni[2]
+print(uni, "  Index at 2 is:---->", nam)

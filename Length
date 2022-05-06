@@ -1,0 +1,13 @@
+uni = "Sukkur IBA University"
+print(len(uni))
+
+name = len(uni)
+last = uni[name-1]
+print(last)
+value = ["Dilbar", 10.4, "SIBA", 50.344,"Bye"]
+print(len(value))
+print(len(value[4]))
+
+
+lane = [0.34, '6', 'SI106', 'Python', -2]
+print(len(lane[1:-1]))
