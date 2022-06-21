@@ -1,0 +1,21 @@
+num_list = []
+
+num = int(input("Enter the Starting number :---> "))
+valu = int(input("Enter the End number :----> "))
+
+for i in range(num, valu):
+    num_list.append(i)
+print("Original list of numbers:---->", num_list)
+
+even_list = []
+odd_list = []
+
+for i in range(len(num_list)):
+    if(num_list[i] % 2 == 0):
+        even_list.append(num_list[i])
+    
+    else:
+        odd_list.append(num_list[i])
+
+print("\n\nEven Numbers List:----> ", even_list)
+print("\n\nOdd Numbers List:----> ", odd_list)

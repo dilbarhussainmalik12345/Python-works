@@ -1,3 +1,0 @@
-data = ("Dilbar", 19, "years old", "Doindg Cs Degree")
-print(data)
-print(type(data))
